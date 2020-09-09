@@ -1,0 +1,29 @@
+Pengerjaan tugas Laravel hari ke 3 pekan ke 3 (?)
+
+Video ke 4_1
+
+oke, masuk ya?
+
+sekarang si kategori
+
+oke, sekarang dua duanya udh sama, 
+perttanyaannya gimana caranya kita bikin supaya isinya bisa 
+beda?
+
+disini kita menggunakan tag 
+
+@yield()   // ini dipake di parrent
+@section() // ini dipake di childrren
+
+sekarang tentuin mana bagian yg mau dinamis, 
+
+untuk sekarang yg dinamis adalah bagian konten kan?
+
+kita cut content nya
+
+terus masukin ke dalam file childrennya,
+
+setiap section HARUS pake endsection, dan dalemnya bisa 
+kita isi
+
+lakukan yg sama untuk kategori, dengan perubahan isi
